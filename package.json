@@ -1,0 +1,74 @@
+{
+  "name": "rest-api-express-mongo",
+  "version": "1.0.0",
+  "description": "a scalable e-commerce backend, sets up a Node.js/Express server, establishes a connection to MongoDB Atlas for data storage, and configures Jest for unit and integration testing. This foundation ensures a robust, secure, and testable environment for implementing user authentication, multi-vendor support with dynamic commission calculation, and API-first design with comprehensive documentation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node_modules/side-channel-list/test/auth.test.js"
+  },
+  "keywords": [
+    "E-Commerce",
+    "Backend",
+    "Development",
+    "RESTful",
+    "API",
+    "Multi-Vendor",
+    "Marketplace",
+    "Dynamic",
+    "Commission",
+    "API-First",
+    "Design",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Authentication",
+    "Scalability",
+    "AWS",
+    "Deployment",
+    "CI/CD",
+    "Jest",
+    "Testing",
+    "Stripe",
+    "API",
+    "MongpDB",
+    "Atlas",
+    "Security",
+    "Modular",
+    "Architecture",
+    "Test-Driven",
+    "Development"
+  ],
+  "author": "Marolla Sedky",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lkk": "^0.0.1",
+    "mongodb": "^4.17.2",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ],
+    "setupFiles": [
+      "dotenv/config"
+    ]
+  }
+}
